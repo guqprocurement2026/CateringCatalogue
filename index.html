@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="GU-Q Finance Catering Catalogue"/>
+  <title>GU-Q Catering Catalogue</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="utility">
+  <div class="utility-inner">
+    <div class="brand">
+      <div class="mark">GU</div>
+      <div><strong id="brandName">Georgetown University in Qatar</strong><span id="departmentName">Office of Finance · Procurement & Payables</span></div>
+    </div>
+    <div class="utility-search"><b>⌕</b><input id="globalSearch" placeholder="Search hotels or catering categories…"/></div>
+    <div class="utility-actions">
+      <div class="sync"><span class="sync-dot" id="syncDot"></span><span id="syncText">Connecting…</span></div>
+      <button class="u-btn" id="refreshBtn">Refresh</button>
+      <button class="u-btn" id="sheetBtn">Google Sheet</button>
+      <button class="u-btn light" id="shortlistTop">Shortlist <span id="shortlistCount">0</span></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow" id="heroEyebrow">Preferred Catering Catalogue</div>
+      <h1 id="heroTitle">Plan events faster. Choose catering with confidence.</h1>
+      <p id="heroDescription"></p>
+      <div class="hero-actions">
+        <button class="hero-btn primary" onclick="document.getElementById('catalogue').scrollIntoView({behavior:'smooth'})">Browse catalogue</button>
+        <button class="hero-btn ghost" onclick="document.getElementById('filterPanel').scrollIntoView({behavior:'smooth'})">Find an option</button>
+      </div>
+      <div class="hero-mini">
+        <div class="metric"><strong id="heroHotels">0</strong><span>approved hotel partners</span></div>
+        <div class="metric"><strong id="heroCategories">0</strong><span>catering categories</span></div>
+        <div class="metric"><strong id="heroLow">—</strong><span>lowest average price</span></div>
+      </div>
+    </div>
+    <div class="mosaic" id="heroMosaic"></div>
+  </div>
+</section>
+
+<div class="shell" id="connectionAlert" hidden></div>
+
+<div class="shell snapshot-wrap" id="snapshotWrap">
+  <section class="snapshot">
+    <div class="snapshot-intro"><b>Procurement snapshot</b><span>Use the category shortcuts or filters below to narrow the catalogue quickly.</span></div>
+    <div class="snap"><strong id="snapRows">0</strong><span>hotel-category options</span></div>
+    <div class="snap"><strong id="snapAvg">—</strong><span>average across catalogue</span></div>
+    <div class="snap"><strong id="snapShort">0</strong><span>hotels shortlisted</span></div>
+    <div class="snap"><strong id="snapSync">Connecting</strong><span>Google Sheet data source</span></div>
+  </section>
+
+  <section class="command" id="categoryCommand">
+    <div class="command-label"><b>Browse by catering category</b><span>One click filters the entire catalogue.</span></div>
+    <div class="category-scroll" id="categoryButtons"></div>
+  </section>
+
+  <section class="filter-panel" id="filterPanel">
+    <div class="filter-grid">
+      <div class="field"><label>Search</label><input id="search" placeholder="Hotel or category"/></div>
+      <div class="field"><label>Hotel</label><select id="hotelFilter"><option value="">All hotels</option></select></div>
+      <div class="field"><label>Tier</label><select id="tierFilter"><option value="">All tiers</option></select></div>
+      <div class="field"><label>Max average price</label>
+        <select id="priceFilter"><option value="">Any price</option><option value="100">≤ 100</option><option value="150">≤ 150</option><option value="200">≤ 200</option><option value="250">≤ 250</option><option value="350">≤ 350</option><option value="500">≤ 500</option></select>
+      </div>
+      <div class="field"><label>Sort</label><select id="sortFilter"><option value="name">Name A–Z</option><option value="low">Lowest price</option><option value="high">Highest price</option><option value="count">Most categories</option></select></div>
+    </div>
+  </section>
+
+  <section class="procurement-note" id="noticeWrap">
+    <div class="notice-icon">i</div>
+    <p id="noticeText"></p>
+  </section>
+</div>
+
+<main class="shell catalogue" id="catalogue">
+  <div class="catalogue-head">
+    <div><h2 id="catalogueHeading">Preferred catering partners</h2><p id="catalogueSubtitle"></p></div>
+    <div class="result-badge" id="resultBadge"></div>
+  </div>
+  <div class="grid" id="grid"><div class="loading">Loading Google Sheet catalogue…</div></div>
+</main>
+
+<div class="dock" id="dock">
+  <b>Shortlist</b>
+  <div class="dock-items" id="dockItems"></div>
+  <button class="clear" id="dockClear">Clear</button>
+  <button class="compare" id="dockCompare">Compare</button>
+</div>
+
+<div class="modal" id="compareModal">
+  <div class="modal-card">
+    <div class="modal-head"><h3>Shortlisted catering partners</h3><button class="close" id="compareClose">×</button></div>
+    <div class="compare-wrap" id="compareWrap"></div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="shell footer-grid">
+    <div><b id="footerText">GU-Q Finance Catering Catalogue</b></div>
+    <div>Hotel images and menu links are maintained from Google Sheets.</div>
+  </div>
+</footer>
+
+<noscript>This catalogue requires JavaScript to read the Google Sheet.</noscript>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
