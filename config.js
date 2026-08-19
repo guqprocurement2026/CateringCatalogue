@@ -10,6 +10,6 @@
  *   - prices/content/settings come from Google Sheets
  */
 window.GUQ_CATERING_CONFIG = {
-  SHEET_API_URL: "https://script.google.com/macros/s/AKfycbytl5Y28mYB9bv2GnlyBuOGwaEMNpsQW9hDvgCD9-7btRNOGloR--p8DamG7zBXjF8o/exec",
+  SHEET_API_URL: "https://script.google.com/a/macros/georgetown.edu/s/AKfycbytl5Y28mYB9bv2GnlyBuOGwaEMNpsQW9hDvgCD9-7btRNOGloR--p8DamG7zBXjF8o/exec",
   REQUEST_TIMEOUT_MS: 12000
 };
