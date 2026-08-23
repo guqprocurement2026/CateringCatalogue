@@ -1,0 +1,4 @@
+# Finance-only implementation files — keep out of the website repository
+FINANCE_ONLY_*
+README_FIRST.txt
+GITHUB_UPLOAD.txt

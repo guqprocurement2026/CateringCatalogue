@@ -1,0 +1,245 @@
+{
+  "generated_at": "Initial packaged data - Finance sync will refresh this",
+  "source": "GU-Q Catering Catalogue - Finance control sheet",
+  "settings": {
+    "events_upload_url": "",
+    "site_url": "",
+    "finance_support_email": ""
+  },
+  "hotels": [
+    {
+      "supplier": "City Centre Rotana Doha",
+      "tier": "Mid",
+      "categories": [
+        {
+          "category": "Coffee Break",
+          "average_price_qar": 125,
+          "menu_url": "menu-city-centre-rotana-doha-coffee-break.pdf"
+        },
+        {
+          "category": "Buffet",
+          "average_price_qar": 150,
+          "menu_url": "menu-city-centre-rotana-doha-buffet.pdf"
+        },
+        {
+          "category": "Canapés",
+          "average_price_qar": 130,
+          "menu_url": "menu-city-centre-rotana-doha-canapes.pdf"
+        },
+        {
+          "category": "Set Menu",
+          "average_price_qar": 150,
+          "menu_url": "menu-city-centre-rotana-doha-set-menu.pdf"
+        }
+      ],
+      "meeting_spaces_url": "https://www.rotana.com/rotanahotelandresorts/qatar/doha/citycentrerotanadoha/meetingsandevents",
+      "meeting_spaces_note": "Almas Grand Ballroom + meeting rooms",
+      "hotel_attachment_url": "",
+      "hotel_attachment_label": ""
+    },
+    {
+      "supplier": "Four Seasons Hotel Doha",
+      "tier": "High-End",
+      "categories": [
+        {
+          "category": "Coffee Break",
+          "average_price_qar": 128,
+          "menu_url": "menu-four-seasons-hotel-doha-coffee-break.pdf"
+        },
+        {
+          "category": "Breakfast",
+          "average_price_qar": 170,
+          "menu_url": "menu-four-seasons-hotel-doha-breakfast.pdf"
+        },
+        {
+          "category": "Buffet",
+          "average_price_qar": 385,
+          "menu_url": "menu-four-seasons-hotel-doha-buffet.pdf"
+        },
+        {
+          "category": "Canapés",
+          "average_price_qar": 280,
+          "menu_url": "menu-four-seasons-hotel-doha-canapes.pdf"
+        }
+      ],
+      "meeting_spaces_url": "https://www.fourseasons.com/doha/meetings-and-events.html/",
+      "meeting_spaces_note": "Al Mirqab Ballroom + meeting rooms",
+      "hotel_attachment_url": "",
+      "hotel_attachment_label": ""
+    },
+    {
+      "supplier": "JW Marriott Marquis City Center Doha",
+      "tier": "Mid",
+      "categories": [
+        {
+          "category": "Coffee Break",
+          "average_price_qar": 90,
+          "menu_url": "menu-jw-marriott-marquis-city-center-doha-packages.pdf"
+        },
+        {
+          "category": "Buffet",
+          "average_price_qar": 165,
+          "menu_url": "menu-jw-marriott-marquis-city-center-doha-buffet.pdf"
+        },
+        {
+          "category": "Canapés",
+          "average_price_qar": 180,
+          "menu_url": "menu-jw-marriott-marquis-city-center-doha-canapes.pdf"
+        },
+        {
+          "category": "Family Style",
+          "average_price_qar": 200,
+          "menu_url": "menu-jw-marriott-marquis-city-center-doha-packages.pdf"
+        },
+        {
+          "category": "Meeting Package",
+          "average_price_qar": 225,
+          "menu_url": "menu-jw-marriott-marquis-city-center-doha-packages.pdf"
+        }
+      ],
+      "meeting_spaces_url": "https://www.marriott.com/en-us/hotels/dohjb-jw-marriott-marquis-city-center-doha/events/",
+      "meeting_spaces_note": "Sidra Grand Ballroom + meeting rooms",
+      "hotel_attachment_url": "",
+      "hotel_attachment_label": ""
+    },
+    {
+      "supplier": "Mandarin Oriental Doha",
+      "tier": "High-End",
+      "categories": [
+        {
+          "category": "Coffee Break",
+          "average_price_qar": 180,
+          "menu_url": "menu-mandarin-oriental-doha-coffee-break.pdf"
+        },
+        {
+          "category": "Buffet",
+          "average_price_qar": 230,
+          "menu_url": "menu-mandarin-oriental-doha-buffet.pdf"
+        },
+        {
+          "category": "Canapés",
+          "average_price_qar": 250,
+          "menu_url": "menu-mandarin-oriental-doha-canapes.pdf"
+        }
+      ],
+      "meeting_spaces_url": "https://cms.mandarinoriental.com/en/doha/msheireb/meet",
+      "meeting_spaces_note": "Almas Ballroom + dedicated meeting rooms",
+      "hotel_attachment_url": "",
+      "hotel_attachment_label": ""
+    },
+    {
+      "supplier": "Marriott Marquis City Center Doha",
+      "tier": "Mid",
+      "categories": [
+        {
+          "category": "Coffee Break",
+          "average_price_qar": 105,
+          "menu_url": "menu-marriott-marquis-city-center-doha-coffee-break.pdf"
+        },
+        {
+          "category": "Buffet",
+          "average_price_qar": 170,
+          "menu_url": "menu-marriott-marquis-city-center-doha-buffet.pdf"
+        },
+        {
+          "category": "Canapés",
+          "average_price_qar": 180,
+          "menu_url": "menu-marriott-marquis-city-center-doha-canapes.pdf"
+        },
+        {
+          "category": "Meeting Package",
+          "average_price_qar": 320,
+          "menu_url": "menu-marriott-marquis-city-center-doha-meeting-package.pdf"
+        }
+      ],
+      "meeting_spaces_url": "https://www.marriott.com/en-us/hotels/dohmq-marriott-marquis-city-center-doha-hotel/events/",
+      "meeting_spaces_note": "Al Areen Ballroom + meeting rooms",
+      "hotel_attachment_url": "",
+      "hotel_attachment_label": ""
+    },
+    {
+      "supplier": "Mondrian Doha",
+      "tier": "Mid",
+      "categories": [
+        {
+          "category": "Coffee Break",
+          "average_price_qar": 75,
+          "menu_url": "menu-mondrian-doha-all-catering.pdf"
+        },
+        {
+          "category": "Breakfast",
+          "average_price_qar": 125,
+          "menu_url": "menu-mondrian-doha-all-catering.pdf"
+        },
+        {
+          "category": "Buffet",
+          "average_price_qar": 165,
+          "menu_url": "menu-mondrian-doha-all-catering.pdf"
+        },
+        {
+          "category": "Canapés",
+          "average_price_qar": 150,
+          "menu_url": "menu-mondrian-doha-all-catering.pdf"
+        },
+        {
+          "category": "Set Menu",
+          "average_price_qar": 250,
+          "menu_url": "menu-mondrian-doha-all-catering.pdf"
+        }
+      ],
+      "meeting_spaces_url": "https://mondrianhotels.com/doha/meetings-celebrations/",
+      "meeting_spaces_note": "Moonstone Ballroom + studios",
+      "hotel_attachment_url": "",
+      "hotel_attachment_label": ""
+    },
+    {
+      "supplier": "Sheraton Grand Doha Resort & Convention Hotel",
+      "tier": "Mid-High",
+      "meeting_spaces_url": "https://www.marriott.com/en-us/hotels/dohsi-sheraton-grand-doha-resort-and-convention-hotel/events/",
+      "meeting_spaces_note": "Al Dafna Convention Center + meeting rooms",
+      "hotel_attachment_url": "sheraton-guq-tasting-evaluation.pdf",
+      "hotel_attachment_label": "GU-Q tasting evaluation",
+      "categories": []
+    },
+    {
+      "supplier": "St. Regis Doha",
+      "tier": "High-End",
+      "categories": [
+        {
+          "category": "Coffee Break",
+          "average_price_qar": 97,
+          "menu_url": "menu-st-regis-doha-coffee-break.pdf"
+        },
+        {
+          "category": "Breakfast",
+          "average_price_qar": 198,
+          "menu_url": "menu-st-regis-doha-breakfast.pdf"
+        },
+        {
+          "category": "Buffet",
+          "average_price_qar": 211,
+          "menu_url": "menu-st-regis-doha-buffet.pdf"
+        },
+        {
+          "category": "Canapés",
+          "average_price_qar": 201,
+          "menu_url": "menu-st-regis-doha-canapes.pdf"
+        },
+        {
+          "category": "Set Menu",
+          "average_price_qar": 210,
+          "menu_url": "menu-st-regis-doha-set-menu.pdf"
+        },
+        {
+          "category": "Beverage",
+          "average_price_qar": 305,
+          "menu_url": "menu-st-regis-doha-beverage.pdf"
+        }
+      ],
+      "meeting_spaces_url": "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/events/",
+      "meeting_spaces_note": "Grand Ballroom + meeting rooms",
+      "hotel_attachment_url": "",
+      "hotel_attachment_label": ""
+    }
+  ]
+}
