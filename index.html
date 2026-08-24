@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GU-Q Preferred Catering Venues</title>
+  <meta name="description" content="Georgetown University in Qatar preferred catering venues catalogue.">
+  <link rel="stylesheet" href="website_styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-mark">GU</div>
+        <div>
+          <strong>Georgetown University in Qatar</strong>
+          <span>Finance · Preferred Catering Venues</span>
+        </div>
+      </div>
+      <div class="live-status"><i id="statusDot"></i><span id="statusText">Connecting to catalogue…</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Academic Year 2026–2027</span>
+        <h1>Preferred Catering Venues</h1>
+        <p>Browse preferred venues, average catering prices, menu attachments and meeting-space information in one place.</p>
+      </div>
+      <div class="hero-stats">
+        <div><strong id="statHotels">—</strong><span>Venues</span></div>
+        <div><strong id="statCategories">—</strong><span>Categories</span></div>
+        <div><strong id="statAvg">—</strong><span>Avg. menu price</span></div>
+      </div>
+    </section>
+
+    <section class="controls-wrap">
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search hotel or category…" aria-label="Search catalogue">
+        <select id="sort" aria-label="Sort venues">
+          <option value="hotel">Hotel name</option>
+          <option value="price">Lowest starting price</option>
+        </select>
+      </div>
+      <div id="filters" class="filters"></div>
+    </section>
+
+    <section class="content">
+      <div class="section-head">
+        <div>
+          <h2>Preferred Catering Venues</h2>
+          <p id="resultCount">Loading catalogue…</p>
+        </div>
+      </div>
+      <div id="grid" class="venue-grid"></div>
+    </section>
+  </main>
+
+  <footer>Georgetown University in Qatar · Finance</footer>
+
+  <script src="google_sheet_connection.js"></script>
+  <script src="website_app.js"></script>
+</body>
+</html>

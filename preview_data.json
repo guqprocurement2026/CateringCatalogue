@@ -1,0 +1,320 @@
+{
+  "hotels": [
+    {
+      "Hotel": "City Centre Rotana Doha",
+      "Tier": "Mid",
+      "Active": true
+    },
+    {
+      "Hotel": "Four Seasons Hotel Doha",
+      "Tier": "High-End",
+      "Active": true
+    },
+    {
+      "Hotel": "JW Marriott Marquis City Center Doha",
+      "Tier": "Mid",
+      "Active": true
+    },
+    {
+      "Hotel": "Mandarin Oriental Doha",
+      "Tier": "High-End",
+      "Active": true
+    },
+    {
+      "Hotel": "Marriott Marquis City Center Doha",
+      "Tier": "Mid",
+      "Active": true
+    },
+    {
+      "Hotel": "Mondrian Doha",
+      "Tier": "Mid",
+      "Active": true
+    },
+    {
+      "Hotel": "Sheraton Grand Doha Resort & Convention Hotel",
+      "Tier": "Mid-High",
+      "Active": true
+    },
+    {
+      "Hotel": "St. Regis Doha",
+      "Tier": "High-End",
+      "Active": true
+    }
+  ],
+  "menus": [
+    {
+      "Hotel": "City Centre Rotana Doha",
+      "Category": "Coffee Break",
+      "Average Price QAR": 125,
+      "Attachment Link": "menu-city-centre-rotana-doha-coffee-break.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "City Centre Rotana Doha",
+      "Category": "Buffet",
+      "Average Price QAR": 150,
+      "Attachment Link": "menu-city-centre-rotana-doha-buffet.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "City Centre Rotana Doha",
+      "Category": "Canap\u00e9s",
+      "Average Price QAR": 130,
+      "Attachment Link": "menu-city-centre-rotana-doha-canapes.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "City Centre Rotana Doha",
+      "Category": "Set Menu",
+      "Average Price QAR": 150,
+      "Attachment Link": "menu-city-centre-rotana-doha-set-menu.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "City Centre Rotana Doha",
+      "Category": "Meeting Spaces",
+      "Average Price QAR": "",
+      "Attachment Link": "https://www.rotana.com/rotanahotelandresorts/qatar/doha/citycentrerotanadoha/meetingsandevents",
+      "Active": true
+    },
+    {
+      "Hotel": "Four Seasons Hotel Doha",
+      "Category": "Coffee Break",
+      "Average Price QAR": 128,
+      "Attachment Link": "menu-four-seasons-hotel-doha-coffee-break.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Four Seasons Hotel Doha",
+      "Category": "Breakfast",
+      "Average Price QAR": 170,
+      "Attachment Link": "menu-four-seasons-hotel-doha-breakfast.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Four Seasons Hotel Doha",
+      "Category": "Buffet",
+      "Average Price QAR": 385,
+      "Attachment Link": "menu-four-seasons-hotel-doha-buffet.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Four Seasons Hotel Doha",
+      "Category": "Canap\u00e9s",
+      "Average Price QAR": 280,
+      "Attachment Link": "menu-four-seasons-hotel-doha-canapes.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Four Seasons Hotel Doha",
+      "Category": "Meeting Spaces",
+      "Average Price QAR": "",
+      "Attachment Link": "https://www.fourseasons.com/doha/meetings-and-events.html/",
+      "Active": true
+    },
+    {
+      "Hotel": "JW Marriott Marquis City Center Doha",
+      "Category": "Coffee Break",
+      "Average Price QAR": 90,
+      "Attachment Link": "menu-jw-marriott-marquis-city-center-doha-packages.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "JW Marriott Marquis City Center Doha",
+      "Category": "Buffet",
+      "Average Price QAR": 165,
+      "Attachment Link": "menu-jw-marriott-marquis-city-center-doha-buffet.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "JW Marriott Marquis City Center Doha",
+      "Category": "Canap\u00e9s",
+      "Average Price QAR": 180,
+      "Attachment Link": "menu-jw-marriott-marquis-city-center-doha-canapes.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "JW Marriott Marquis City Center Doha",
+      "Category": "Family Style",
+      "Average Price QAR": 200,
+      "Attachment Link": "menu-jw-marriott-marquis-city-center-doha-packages.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "JW Marriott Marquis City Center Doha",
+      "Category": "Meeting Package",
+      "Average Price QAR": 225,
+      "Attachment Link": "menu-jw-marriott-marquis-city-center-doha-packages.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "JW Marriott Marquis City Center Doha",
+      "Category": "Meeting Spaces",
+      "Average Price QAR": "",
+      "Attachment Link": "https://www.marriott.com/en-us/hotels/dohjb-jw-marriott-marquis-city-center-doha/events/",
+      "Active": true
+    },
+    {
+      "Hotel": "Mandarin Oriental Doha",
+      "Category": "Coffee Break",
+      "Average Price QAR": 180,
+      "Attachment Link": "menu-mandarin-oriental-doha-coffee-break.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Mandarin Oriental Doha",
+      "Category": "Buffet",
+      "Average Price QAR": 230,
+      "Attachment Link": "menu-mandarin-oriental-doha-buffet.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Mandarin Oriental Doha",
+      "Category": "Canap\u00e9s",
+      "Average Price QAR": 250,
+      "Attachment Link": "menu-mandarin-oriental-doha-canapes.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Mandarin Oriental Doha",
+      "Category": "Meeting Spaces",
+      "Average Price QAR": "",
+      "Attachment Link": "https://cms.mandarinoriental.com/en/doha/msheireb/meet",
+      "Active": true
+    },
+    {
+      "Hotel": "Marriott Marquis City Center Doha",
+      "Category": "Coffee Break",
+      "Average Price QAR": 105,
+      "Attachment Link": "menu-marriott-marquis-city-center-doha-coffee-break.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Marriott Marquis City Center Doha",
+      "Category": "Buffet",
+      "Average Price QAR": 170,
+      "Attachment Link": "menu-marriott-marquis-city-center-doha-buffet.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Marriott Marquis City Center Doha",
+      "Category": "Canap\u00e9s",
+      "Average Price QAR": 180,
+      "Attachment Link": "menu-marriott-marquis-city-center-doha-canapes.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Marriott Marquis City Center Doha",
+      "Category": "Meeting Package",
+      "Average Price QAR": 320,
+      "Attachment Link": "menu-marriott-marquis-city-center-doha-meeting-package.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Marriott Marquis City Center Doha",
+      "Category": "Meeting Spaces",
+      "Average Price QAR": "",
+      "Attachment Link": "https://www.marriott.com/en-us/hotels/dohmq-marriott-marquis-city-center-doha-hotel/events/",
+      "Active": true
+    },
+    {
+      "Hotel": "Mondrian Doha",
+      "Category": "Coffee Break",
+      "Average Price QAR": 75,
+      "Attachment Link": "menu-mondrian-doha-all-catering.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Mondrian Doha",
+      "Category": "Breakfast",
+      "Average Price QAR": 125,
+      "Attachment Link": "menu-mondrian-doha-all-catering.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Mondrian Doha",
+      "Category": "Buffet",
+      "Average Price QAR": 165,
+      "Attachment Link": "menu-mondrian-doha-all-catering.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Mondrian Doha",
+      "Category": "Canap\u00e9s",
+      "Average Price QAR": 150,
+      "Attachment Link": "menu-mondrian-doha-all-catering.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Mondrian Doha",
+      "Category": "Set Menu",
+      "Average Price QAR": 250,
+      "Attachment Link": "menu-mondrian-doha-all-catering.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "Mondrian Doha",
+      "Category": "Meeting Spaces",
+      "Average Price QAR": "",
+      "Attachment Link": "https://mondrianhotels.com/doha/meetings-celebrations/",
+      "Active": true
+    },
+    {
+      "Hotel": "Sheraton Grand Doha Resort & Convention Hotel",
+      "Category": "Meeting Spaces",
+      "Average Price QAR": "",
+      "Attachment Link": "https://www.marriott.com/en-us/hotels/dohsi-sheraton-grand-doha-resort-and-convention-hotel/events/",
+      "Active": true
+    },
+    {
+      "Hotel": "St. Regis Doha",
+      "Category": "Coffee Break",
+      "Average Price QAR": 97,
+      "Attachment Link": "menu-st-regis-doha-coffee-break.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "St. Regis Doha",
+      "Category": "Breakfast",
+      "Average Price QAR": 198,
+      "Attachment Link": "menu-st-regis-doha-breakfast.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "St. Regis Doha",
+      "Category": "Buffet",
+      "Average Price QAR": 211,
+      "Attachment Link": "menu-st-regis-doha-buffet.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "St. Regis Doha",
+      "Category": "Canap\u00e9s",
+      "Average Price QAR": 201,
+      "Attachment Link": "menu-st-regis-doha-canapes.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "St. Regis Doha",
+      "Category": "Set Menu",
+      "Average Price QAR": 210,
+      "Attachment Link": "menu-st-regis-doha-set-menu.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "St. Regis Doha",
+      "Category": "Beverage",
+      "Average Price QAR": 305,
+      "Attachment Link": "menu-st-regis-doha-beverage.pdf",
+      "Active": true
+    },
+    {
+      "Hotel": "St. Regis Doha",
+      "Category": "Meeting Spaces",
+      "Average Price QAR": "",
+      "Attachment Link": "https://www.marriott.com/en-us/hotels/dohxr-the-st-regis-doha/events/",
+      "Active": true
+    }
+  ],
+  "generated_at": "Preview data packaged with website"
+}
