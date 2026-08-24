@@ -4,5 +4,5 @@
  * After this one-time connection, all catalogue edits happen in Google Sheets.
  */
 window.CATALOGUE_CONFIG = {
-  APPS_SCRIPT_URL: "PASTE_YOUR_APPS_SCRIPT_EXEC_URL_HERE"
+  APPS_SCRIPT_URL: "https://script.google.com/a/macros/georgetown.edu/s/AKfycbxnbRGKmaBS0zLRMd6sphEaRSqXnHWhQsLG3O3T8hHA0A0ZdZxOhck_PkLdnzO1JVSu/exec"
 };
